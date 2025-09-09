@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../src/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+</head>
+<body class="font-plus-jakarta">
+    <main class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
+        <nav id="nav" class="w-full h-auto bg-transparent py-6 px-20 fixed top-0 gap-10 flex justify-center items-center">
+            <a href="#" class="w-max font-bold font-plus-jakarta text-center text-base text-primary capitalize tracking-wider invisible md:visible">home</a>
+            <span class="text-3xl text-black invisible md:visible">•</span>
+            <a href="#" class="w-max font-medium font-plus-jakarta text-center text-base text-navtext capitalize tracking-wider invisible md:visible">tentang kami</a>
+            <span class="text-3xl text-black invisible md:visible">•</span>
+            <a href="#" class="w-max font-medium font-plus-jakarta text-center text-base text-navtext capitalize tracking-wider invisible md:visible">service</a>
+            <span class="text-3xl text-black invisible md:visible">•</span>
+            <a href="#" class="w-max font-medium font-plus-jakarta text-center text-base text-navtext capitalize tracking-wider invisible md:visible">contact</a>
+            
+            <i id="bars" class="fa-solid fa-bars py-3 px-3 rounded bg-primary text-white text-xl absolute right-8 cursor-pointer visible md:invisible" onclick="openMenu()"></i>
+        </nav>
+
+        <aside id="mobile" class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full">
+            <div class="w-full mb-10 flex justify-between items-center">
+                <h1 class="text-gray-900 text-left text-2xl tracking-wider font-plus-jakarta font-extrabold">Title</h1>
+                <i id="exit" class="fa-solid fa-xmark py-2 px-3 rounded bg-primary text-white text-xl cursor-pointer" onclick="closeMenu()"></i>
+            </div>
+            <div class="w-full gap-5 flex flex-col justify-start items-center">
+                <a href="#" class="w-full font-bold font-plus-jakarta text-left text-base text-primary capitalize tracking-wider">home</a>
+                <a href="#" class="w-full font-medium font-plus-jakarta text-left text-base text-navtext capitalize tracking-wider">tentang kami</a>
+                <a href="#" class="w-full font-medium font-plus-jakarta text-left text-base text-navtext capitalize tracking-wider">service</a>
+                <a href="#" class="w-full font-medium font-plus-jakarta text-left text-base text-navtext capitalize tracking-wider">contact</a>
+            </div>
+        </aside>
+        
+        <img src="../src/images/vector_line.png" class="w-180 h-auto absolute top-8 -left-35 rotate-3 -z-10" alt="vector line">
+
+        <section class="w-full h-auto py-40 px-5 bg-transparent flex flex-col justify-start items-center">
+            <div class="w-full h-auto mb-20 px-25 bg-transparent gap-3 flex justify-between items-center">
+                <div class="w-max h-auto flex flex-col justify-center items-start">
+                    <p class="w-50 mb-5 text-black text-left font-normal font-plus-jakarta text-base tracking-wide">Roda ringan berkualitas tinggi dengan standar kinerja global.</p>
+                    <a href="#" class="w-auto h-auto p-1 pl-6 bg-primary rounded-full text-white text-left font-light font-plus-jakarta text-base tracking-wide capitalize gap-8 flex justify-center items-center">get in touch<p class="w-10 h-10 bg-white text-primary text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></p></a>
+                </div>
+                <div class="w-max h-auto flex flex-col justify-center items-end">
+                    <h1 class="text-black text-left font-bold font-plus-jakarta text-[8.5rem] leading-25 -tracking-wider capitalize">perdana <span class="mt-15 ml-3 text-black text-left font-normal font-plus-jakarta tracking-normal leading-normal text-base absolute">industri global <br>solusi</span> <br><span class="text-primary text-[7rem] font-[600]">MitraKencana</span></h1>
+                </div>
+            </div>
+
+            <div class="w-full h-screen p-8 rounded-4xl bg-top bg-no-repeat bg-cover flex justify-between items-end" style="background-image: url(../src/images/hero_background.png);">
+                <div class="gap-3 flex justify-center items-center">
+                    <p class="w-16 h-16 rounded-2xl bg-white/60 text-black text-2xl text-center font-medium font-plus-jakarta flex justify-center items-center capitalize">01</p>
+                    <p class="w-max h-16 px-13 rounded-2xl bg-primary text-white text-2xl text-center font-normal font-plus-jakarta flex justify-center items-center capitalize tracking-wide">02 wiremesh</p>
+                    <p class="w-16 h-16 rounded-2xl bg-white/60 text-black text-2xl text-center font-medium font-plus-jakarta flex justify-center items-center capitalize">03</p>
+                    <p class="w-16 h-16 rounded-2xl bg-white/60 text-black text-2xl text-center font-medium font-plus-jakarta flex justify-center items-center capitalize">04</p>
+                </div>
+                <div class="w-max h-auto px-5 py-7 bg-center bg-no-repeat bg-cover flex flex-col justify-center items-start" style="background-image: url(../src/images/vector_background.png);">
+                    <h2 class="mb-4 text-black font-plus-jakarta text-2xl text-left font-[500] capitalize tracking-wide">Inovasi pada Detail <br>Kecil yang <br>Menggerakkan <br>Rantai Pasok Global</h2>
+                    <div class="pt-6 border-t-2 border-graylight gap-23 flex justify-center items-center">
+                        <p class="text-black font-plus-jakarta text-lg text-left font-normal capitalize">jelajahi inovasi industri kami</p>
+                        <a href="#" class="w-16 h-16 rounded-2xl bg-primary text-white text-2xl text-center font-medium font-plus-jakarta flex justify-center items-center capitalize"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full h-auto px-10 flex flex-col justify-center items-start">
+            <h2 class="px-10 py-5 rounded-full bg-primary text-white text-xl text-center font-normal font-plus-jakarta flex justify-center items-center capitalize tracking-wide">tentang kami</h2>
+        </section>
+    </main>
+
+    <script src="../script/script.js"></script>
+</body>
+</html>
