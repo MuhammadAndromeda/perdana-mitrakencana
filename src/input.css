@@ -5,10 +5,12 @@
   --color-primary: #4378ED;
   --color-secondary: #e3342f;
   --color-navtext: #6B6B6B;
-  --color-graylight: #BDBDBD;
   --color-greylight: #A6A6A6;
+  --color-darkred: #D40606;
 
   --font-plus-jakarta: 'plus jakarta sans', sans-serif;
 
   --blur-xxs: 2px;
+
+  --tracking-tightest: -0.1em;
 }
