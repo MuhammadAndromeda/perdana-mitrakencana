@@ -14,7 +14,7 @@
 </head>
 <body class="font-plus-jakarta">
     <main class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
-        <nav id="nav" class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center">
+        <nav id="nav" class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-10">
             <a href="#" class="w-max font-bold font-plus-jakarta text-center text-base text-primary capitalize tracking-wider invisible md:visible">home</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
             <a href="#" class="w-max font-medium font-plus-jakarta text-center text-base text-navtext capitalize tracking-wider invisible md:visible">tentang kami</a>
@@ -26,7 +26,7 @@
             <i id="bars" class="fa-solid fa-bars py-3 px-3 rounded bg-primary text-white text-xl absolute right-8 cursor-pointer visible md:invisible" onclick="openMenu()"></i>
         </nav>
 
-        <aside id="mobile" class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full">
+        <aside id="mobile" class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full z-20">
             <div class="w-full mb-10 flex justify-between items-center">
                 <h1 class="text-gray-900 text-left text-2xl tracking-wider font-plus-jakarta font-extrabold">Title</h1>
                 <i id="exit" class="fa-solid fa-xmark py-2 px-3 rounded bg-primary text-white text-xl cursor-pointer" onclick="closeMenu()"></i>
@@ -48,7 +48,7 @@
                     <a href="#" class="w-auto h-auto p-1 pl-6 bg-primary rounded-full text-white text-left font-light font-plus-jakarta text-base tracking-wide capitalize gap-8 flex justify-center items-center">get in touch<p class="w-10 h-10 bg-white text-primary text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></p></a>
                 </div>
                 <div class="w-max h-auto flex flex-col justify-center items-end">
-                    <h1 class="text-black text-left font-bold font-plus-jakarta text-[8.5rem] leading-25 -tracking-wider capitalize">perdana <span class="mt-15 ml-3 text-black text-left font-normal font-plus-jakarta tracking-normal leading-normal text-base absolute">industri global <br>solusi</span> <br><span class="text-primary text-[7rem] font-[600]">MitraKencana</span></h1>
+                    <h1 class="text-black text-left font-bold font-plus-jakarta text-[8.5rem] leading-25 -tracking-wider capitalize relative">perdana <span class="text-black text-left font-normal font-plus-jakarta tracking-normal leading-normal text-base absolute bottom-24 right-10">industri global <br>solusi</span> <br><span class="text-primary text-[7rem] font-[600]">MitraKencana</span></h1>
                 </div>
             </div>
 
@@ -69,9 +69,41 @@
             </div>
         </section>
 
-        <section class="w-full h-auto px-10 py-10 flex flex-col justify-center items-start">
+        <section class="w-full h-auto px-20 py-10 relative flex flex-col justify-center items-start">
+            <img src="../src/images/vector_line.png" class="w-160 h-auto absolute -top-12 right-0 rotate-3 -z-10" alt="vector line">
             <h2 class="px-10 py-4 mb-3 rounded-full bg-primary text-white text-xl text-center font-normal font-plus-jakarta flex justify-center items-center capitalize tracking-wide">tentang kami</h2>
-            <h1 class="text-black text-left text-7xl font-black capitalize leading-snug">kepercayaan dan kualitas <br><span class="text-primary">adalah prioritas kami</span></h1>
+            <h1 class="text-black text-left text-7xl font-black capitalize leading-snug mb-10">kepercayaan dan kualitas <br><span class="text-primary">adalah prioritas kami</span></h1>
+            <div class="w-full flex justify-between items-center">
+                <div class="gap-8 flex justify-center items-center">
+                    <img src="../src/images/gambar1.png" alt="Row List Gambar1" class="w-40 h-40 object-cover rounded-3xl">
+                    <img src="../src/images/gambar2.png" alt="Row List Gambar2" class="w-40 h-40 object-cover rounded-full">
+                    <img src="../src/images/gambar3.png" alt="Row List Gambar3" class="w-40 h-40 object-cover rounded-3xl">
+                    <img src="../src/images/gambar4.png" alt="Row List Gambar4" class="w-40 h-40 object-cover rounded-full">
+                </div>
+
+                <p class="mr-15 text-greylight text-left text-base font-normal capitalize">kami berkomitmen pada inovasi <br>berkualitas dan kepuasan <br>pelanggan.</p>
+            </div>
+        </section>
+
+        <section class="w-full h-auto py-20 px-30 flex flex-col justify-center items-center">
+            <div class="w-full h-auto flex justify-between items-center">
+                <img src="../src/images/image_tentang.png" alt="Image Tentang Kami" class="w-100 h-100 object-cover rounded-4xl">
+                <div class="w-max h-full pt-6 flex flex-col justify-start items-center">
+                    <p class="text-navtext text-sm text-left font-normal">PT. Perdana Mitra Kencana adalah perusahaan manufaktur yang berfokus pada produk otomotif, <br>baja, dan plastik. Dengan dukungan teknologi modern dan tenaga ahli berpengalaman, kami <br>berkomitmen menghadirkan solusi presisi untuk berbagai kebutuhan industri.</p>
+                    
+                    <div class="w-full flex justify-between items-center">
+                        <div class="gap-2 flex flex-col justify-center items-start">
+                            <h2 class="font-serif font-medium text-black text-9xl">20<span class="text-primary font-plus-jakarta font-extrabold">+</span></h2>
+                            <p class="text-navtext text-left font-normal text-sm">Dalam industri manufaktur baja, <br>otomotif, dan plastik.</p>
+                        </div>
+
+                        <div class="w-max gap-2 flex flex-col justify-center items-start">
+                            <h2 class="font-serif font-medium text-black text-9xl">100<span class="text-primary font-plus-jakarta font-extrabold">+</span></h2>
+                            <p class="text-navtext text-left font-normal text-sm">Mendukung berbagai sektor industri <br>dengan layanan terbaik.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
