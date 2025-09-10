@@ -255,6 +255,9 @@
   .z-20 {
     z-index: 20;
   }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
+  }
   .mr-15 {
     margin-right: calc(var(--spacing) * 15);
   }
