@@ -4,13 +4,19 @@
 @theme {
   --color-primary: #4378ED;
   --color-secondary: #e3342f;
-  --color-navtext: #6B6B6B;
-  --color-greylight: #A6A6A6;
-  --color-darkred: #D40606;
+  --color-lightblue: #E4E9F4;
 
   --font-plus-jakarta: 'plus jakarta sans', sans-serif;
 
   --blur-xxs: 2px;
 
   --tracking-tightest: -0.1em;
+}
+
+@utility scrollbar-none{
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
