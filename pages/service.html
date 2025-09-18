@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 </head>
 <body class="font-plus-jakarta">
-    <main class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
+    <header class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
         <nav id="nav"
             class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-10">
             <a href="../index.html"
@@ -33,8 +33,7 @@
                 onclick="openMenu()"></i>
         </nav>
 
-        <aside id="mobile"
-            class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full z-20">
+        <aside id="mobile" class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full z-20">
             <div class="w-full mb-10 flex justify-between items-center">
                 <h1 class="text-gray-900 text-left text-2xl tracking-wider font-extrabold">Title</h1>
                 <i id="exit" class="fa-solid fa-xmark py-2 px-3 rounded bg-primary text-white text-xl cursor-pointer"
@@ -51,7 +50,88 @@
             </div>
         </aside>
 
-    </main>
+        <main class="w-full h-max">
+            <section class="w-full h-screen pb-45 px-18 flex justify-between items-end">
+                <h1 class="text-black text-left text-[12rem] font-[600] capitalize tracking-tightest leading-45">layanan <br><span class="text-[13rem] text-primary font-bold">kami</span></h1>
+
+                <div class="pb-6 flex flex-col justify-center items-end">
+                    <p class="w-105 mb-15 text-gray-400 text-sm text-right font-light tracking-wide capitalize">Menyediakan Produk Berkualitas, Presisi, dan Terpercaya Setiap layanan kami dirancang untuk memberikan hasil terbaik dengan teknologi terkini dan SDM berpengalaman.</p>
+                    <a href="#" class="w-auto h-auto p-1 pl-6 bg-primary rounded-full text-white text-left font-light text-base tracking-wide capitalize gap-8 flex justify-center items-center">get in touch<p class="w-10 h-10 bg-white text-primary text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></p></a>
+                </div>
+
+                <img src="../src/images/vector_line.png" alt="vector_line" class="w-100 h-auto absolute left-60 bottom-10 -z-10">
+            </section>
+
+            <section class="w-full py-6 my-12 border-y-2 border-gray-300 flex justify-center items-center">
+                <div id="scrollerContainer" class="w-full overflow-x-hidden flex flex-row gap-30 justify-center items-center">
+                    <div id="scroller" class="scroll-animation gap-30 shrink-0 flex justify-center items-center">
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-gear"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-box-taped"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-server"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-sliders"></i></a>
+                    </div>
+                    <div id="scroller" class="scroll-animation gap-30 shrink-0 flex justify-center items-center">
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-gear"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-box-taped"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-server"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-sliders"></i></a>
+                    </div>
+                    <div id="scroller" class="scroll-animation gap-30 shrink-0 flex justify-center items-center">
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-gear"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-box-taped"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-server"></i></a>
+                        <a class="w-14 h-14 rounded-2xl bg-zinc-800 text-white text-3xl cursor-text flex justify-center items-center"><i class="fa-solid fa-sliders"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="w-full px-5 bg-transparent relative">
+            <div class="w-full h-max px-8 bg-gray-200 rounded-t-3xl flex flex-col justify-center items-center">
+                <div class="w-full py-18 px-8 flex justify-between items-center">
+                    <div class="gap-6 flex flex-col justify-center items-start">
+                        <h2 class="w-130 mb-6 text-black text-6xl text-left font-medium tracking-tighter capitalize">your success is our commitment</h2>
+                        <div class="gap-4 flex justify-center items-center">
+                            <a href="../index.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">home</a>
+                            <span class="text-2xl text-black invisible md:visible">•</span>
+                            <a href="about.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">tentang kami</a>
+                            <span class="text-2xl text-black invisible md:visible">•</span>
+                            <a href="service.html" class="w-max font-normal text-center text-xl text-primary capitalize invisible md:visible">service</a>
+                            <span class="text-2xl text-black invisible md:visible">•</span>
+                            <a href="contact.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">contact</a>
+                        </div>
+                    </div>
+
+                    <div class="gap-8 flex flex-col justify-center items-start">
+                        <h2 class="text-black text-3xl text-left font-bold capitalize">ikuti langkah kami <br>dengan</h2>
+                        <form action="" method="get" class="h-18 gap-3 flex justify-center items-center">
+                            <input type="email" name="email" id="email" class="w-80 h-full bg-white pl-6 pr-2 text-gray-900 text-left text-base font-normal rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Masukkan alamat email">
+                            <button type="submit" class="w-18 h-full bg-primary rounded-2xl text-white text-2xl cursor-pointer"><i class="fa-solid fa-chevron-right"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <h1 class="w-full mb-10 text-[5.6rem] text-black/20 text-center font-medium capitalize leading-normal">[ PT.perdana mitra kencana ]</h1>
+
+                <div class="w-full py-8 px-1 border-t-2 border-t-gray-500 flex justify-between items-center">
+                    <div class="mr-48 gap-3 flex justify-center items-center">
+                        <a href="#" class="w-10 h-10 rounded-full border-2 border-black text-xl text-black flex justify-center items-center"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border-2 border-black text-xl text-black flex justify-center items-center"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border-2 border-black text-xl text-black flex justify-center items-center"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border-2 border-black text-xl text-black flex justify-center items-center"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <p class="text-gray-500 text-center text-lg font-medium capitalize ">&copy;copyright 2025, all rights reserved</p>
+
+                    <div class="gap-5 flex justify-center items-center">
+                        <a href="#" class="text-gray-500 text-center text-sm font-light capitalize">privacy policy</a>
+                        <a href="#" class="text-gray-500 text-center text-sm font-light capitalize">terms and conditions</a>
+                        <a href="#" class="text-gray-500 text-center text-sm font-light capitalize">supports</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </header>
     <script src="../script/script.js"></script>
 </body>
 </html>

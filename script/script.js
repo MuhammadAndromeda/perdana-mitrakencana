@@ -10,3 +10,7 @@ function openMenu() {
 function closeMenu() {
     mobile.classList.replace('translate-x-0', 'translate-x-full');
 }
+
+const scroller = document.getElementById("scroller").cloneNode(true);
+
+document.getElementById("scrollerContainer").appendChild(scroller);

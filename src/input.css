@@ -10,7 +10,31 @@
 
   --blur-xxs: 2px;
 
-  --tracking-tightest: -0.1em;
+  --tracking-tightest: -0.11em;
+}
+
+@layer base {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-plus-jakarta);
+  }
+
+  @keyframes scroll {
+     from{
+      transform: translateX(280%);
+    }
+
+    to{
+      transform: translateX(-300%);
+    }
+  }
+}
+
+@utility scroll-animation{
+  animation: scroll 12s linear infinite;
 }
 
 @utility scrollbar-none{
