@@ -11,6 +11,7 @@
   --blur-xxs: 2px;
 
   --tracking-tightest: -0.11em;
+  --tracking-small: 0.020em
 }
 
 @layer base {
