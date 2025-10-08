@@ -15,20 +15,19 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 </head>
-<body class="font-plus-jakarta">
-    <main class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
-        <nav id="nav"
-            class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-10">
+<body>
+    <header class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
+        <nav id="nav" class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-20">
             <a href="../index.html"
                 class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">home</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
             <a href="#"
                 class="w-max font-bold text-center text-base text-primary capitalize tracking-wider invisible md:visible">about us</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
-            <a href="pages/service.html"
+            <a href="service.html"
                 class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">service</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
-            <a href="pages/contact.html"
+            <a href="contact.html"
                 class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">contact</a>
 
             <i id="bars"
@@ -36,8 +35,7 @@
                 onclick="openMenu()"></i>
         </nav>
 
-        <aside id="mobile"
-            class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full z-20">
+        <aside id="mobile" class="w-4/5 h-full py-10 px-6 bg-white shadow-md fixed right-0 top-0 flex flex-col justify-start items-start translate-x-full transition-all md:translate-x-full z-20">
             <div class="w-full mb-10 flex justify-between items-center">
                 <h1 class="text-gray-900 text-left text-2xl tracking-wider font-extrabold">Title</h1>
                 <i id="exit" class="fa-solid fa-xmark py-2 px-3 rounded bg-primary text-white text-xl cursor-pointer"
@@ -45,30 +43,32 @@
             </div>
             <div class="w-full gap-5 flex flex-col justify-start items-center">
                 <a href="../index.html" class="w-full font-medium text-left text-base text-gray-600 capitalize tracking-wider">home</a>
+                <a href="pages/about.html"
+                    class="w-full font-medium text-left text-base text-gray-600 capitalize tracking-wider">about us</a>
                 <a href="#"
-                    class="w-full font-bold text-left text-base text-primary capitalize tracking-wider">about us</a>
-                <a href="pages/service.html"
-                    class="w-full font-medium text-left text-base text-gray-600 capitalize tracking-wider">service</a>
+                    class="w-full font-bold text-left text-base text-primary capitalize tracking-wider">service</a>
                 <a href="pages/contact.html"
                     class="w-full font-medium text-left text-base text-gray-600 capitalize tracking-wider">contact</a>
             </div>
         </aside>
 
-        <!-- Isi Konten -->
+        <main class="w-full h-max bg-fixed bg-no-repeat bg-center" style="background-image: url(../src/images/background-contact.png);">
+            <!-- Isi konten -->
+        </main>
 
-        <footer class="w-full px-5 bg-transparent">
+        <footer class="w-full px-5 bg-transparent relative">
             <div class="w-full h-max px-8 bg-gray-200 rounded-t-3xl flex flex-col justify-center items-center">
                 <div class="w-full py-18 px-8 flex justify-between items-center">
                     <div class="gap-6 flex flex-col justify-center items-start">
                         <h2 class="w-130 mb-6 text-black text-6xl text-left font-medium tracking-tighter capitalize">your success is our commitment</h2>
                         <div class="gap-4 flex justify-center items-center">
-                            <a href="#" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">home</a>
+                            <a href="../index.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">home</a>
                             <span class="text-2xl text-black invisible md:visible">•</span>
-                            <a href="#" class="w-max font-normal text-center text-xl text-primary capitalize invisible md:visible">tentang kami</a>
+                            <a href="about.html" class="w-max font-normal text-center text-xl text-primary capitalize invisible md:visible">tentang kami</a>
                             <span class="text-2xl text-black invisible md:visible">•</span>
-                            <a href="#" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">service</a>
+                            <a href="service.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">service</a>
                             <span class="text-2xl text-black invisible md:visible">•</span>
-                            <a href="#" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">contact</a>
+                            <a href="contact.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">contact</a>
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </footer>
-    </main>
+    </header>
     <script src="../script/script.js"></script>
 </body>
 </html>

@@ -10,6 +10,8 @@
 
   --blur-xxs: 2px;
 
+  --shadow-primary: 0 0px 10px 0px #4378ED;
+
   --tracking-tightest: -0.11em;
   --tracking-small: 0.020em
 }
@@ -36,6 +38,14 @@
 
 @utility scroll-animation{
   animation: scroll 12s linear infinite;
+}
+
+@utility shadow-bot-white{
+  box-shadow: 0 10px 20px 10px rgba(255, 255, 255);
+}
+
+@utility shadow-top-white{
+  box-shadow: 0 -10px 20px 10px rgba(255, 255, 255);
 }
 
 @utility scrollbar-none{

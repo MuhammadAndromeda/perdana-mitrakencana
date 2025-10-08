@@ -15,21 +15,20 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
 </head>
-<body class="font-plus-jakarta">
+<body>
     <header class="w-full h-screen relative overflow-x-hidden flex flex-col justify-start items-center">
-        <nav id="nav"
-            class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-10">
+        <nav id="nav" class="w-full h-auto bg-white/6 backdrop-blur-xxs py-6 px-20 fixed top-0 gap-10 flex justify-center items-center z-20">
             <a href="../index.html"
                 class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">home</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
-            <a href="pages/about.html"
+            <a href="about.html"
                 class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">about us</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
-            <a href="#"
-                class="w-max font-bold text-center text-base text-primary capitalize tracking-wider invisible md:visible">service</a>
+            <a href="service.html"
+                class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">service</a>
             <span class="text-3xl text-black invisible md:visible">•</span>
-            <a href="pages/contact.html"
-                class="w-max font-medium text-center text-base text-gray-600 capitalize tracking-wider invisible md:visible">contact</a>
+            <a href="#"
+                class="w-max font-bold text-center text-base text-primary capitalize tracking-wider invisible md:visible">contact</a>
 
             <i id="bars"
                 class="fa-solid fa-bars py-3 px-3 rounded bg-primary text-white text-xl absolute right-8 cursor-pointer visible md:invisible"
@@ -53,8 +52,80 @@
             </div>
         </aside>
 
-        <main class="w-full h-max">
-            <!-- Isi Konten -->
+        <main class="w-full h-max bg-fixed bg-no-repeat bg-center" style="background-image: url(../src/images/background-contact.png);">
+            <section class="w-full h-screen bg-white shadow-bot-white flex flex-col justify-center items-center">
+                <img src="../src/images/vector_line.png" alt="vector_line" class="w-auto h-[90%] absolute top-0 left-0">
+                <h1 class="pr-100 mb-20 text-[10rem] text-right text-black font-[600] capitalize tracking-tightest leading-35 z-10">hubungi <br><span class="text-primary">kami</span></h1>
+                <div class="w-full px-50 flex justify-between items-center z-10">
+                    <a href="#" class="w-auto h-auto p-1 pl-6 bg-primary rounded-full text-white text-left font-light text-base tracking-wide capitalize gap-8 flex justify-center items-center">get in touch<p class="w-10 h-10 bg-white text-primary text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></p></a>
+                    <p class="w-80 text-gray-500 text-right text-base font-medium">Tim kami siap membantu Anda. Silakan hubungi kami melalui email, telepon, atau isi formulir di bawah ini.</p>
+                </div>
+            </section>
+            <section class="w-full h-auto py-20 px-12 flex flex-col justify-center items-center">
+                <div class="w-full h-180 py-14 px-30 bg-white rounded-2xl relative overflow-hidden gap-6 flex justify-center items-center">
+                    <img src="../src/images/vector_line.png" alt="vector_line" class="w-130 h-auto absolute -top-50 -left-50">
+
+                    <div class="w-1/2 h-full flex flex-col justify-between items-start z-10">
+                        <div class="gap-4 flex flex-col justify-center items-start">
+                            <h1 class="text-black text-6xl text-left font-[600] capitalize">hubungi kami</h1>
+                            <p class="w-98 text-gray-500 text-left text-xs font-light tracking-wide">Punya pertanyaan atau butuh informasi lebih lanjut tentang produk dan layanan kami? <br><br>Jangan ragu untuk menghubungi tim kami melalui kontak di bawah ini atau isi formulir di samping. <br>Kami siap membantu Anda dengan cepat dan profesional.</p>
+                        </div>
+
+                        <a href="#" class="w-auto h-auto p-1 pl-6 bg-primary rounded-full text-white text-left font-light text-base tracking-wide capitalize gap-8 flex justify-center items-center">get in touch<p class="w-10 h-10 bg-white text-primary text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-right"></i></p></a>
+
+                        <div class="w-full h-auto gap-3 flex flex-col justify-center items-center">
+                            <div class="w-full h-auto py-4 px-4 border-2 border-gray-600 rounded-2xl flex justify-between items-center">
+                                <div class="gap-6 flex justify-center items-center">
+                                    <a class="w-12 h-12 border-2 border-gray-600 rounded-lg flex justify-center items-center"><i class="fa-solid fa-envelope text-2xl text-gray-600"></i></a>
+                                    <div class="flex flex-col justify-center items-start">
+                                        <h2 class="text-primary text-left text-lg font-medium capitalize">email us</h2>
+                                        <p class="text-gray-500 text-left text-base">info@companyname.com</p>
+                                    </div>
+                                </div>
+
+                                <a href="https://mailto:info@companyname.com" class="w-10 h-10 bg-primary text-white text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-up-right text-xl"></i></a>
+                            </div>
+
+                            <div class="w-full h-auto py-4 px-4 border-2 border-gray-600 rounded-2xl flex justify-between items-center">
+                                <div class="gap-6 flex justify-center items-center">
+                                    <a class="w-12 h-12 border-2 border-gray-600 rounded-lg flex justify-center items-center"><i class="fa-solid fa-phone text-2xl text-gray-600"></i></a>
+                                    <div class="flex flex-col justify-center items-start">
+                                        <h2 class="text-primary text-left text-lg font-medium capitalize">call us</h2>
+                                        <p class="text-gray-500 text-left text-base">+62 812-3456-7890</p>
+                                    </div>
+                                </div>
+
+                                <a href="https://wa.me/+6281234567890" class="w-10 h-10 bg-primary text-white text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-up-right text-xl"></i></a>
+                            </div>
+                            
+                            <div class="w-full h-auto py-4 px-4 border-2 border-gray-600 rounded-2xl flex justify-between items-center">
+                                <div class="gap-6 flex justify-center items-center">
+                                    <a class="w-12 h-12 border-2 border-gray-600 rounded-lg flex justify-center items-center"><i class="fa-solid fa-location-dot text-2xl text-gray-600"></i></a>
+                                    <div class="flex flex-col justify-center items-start">
+                                        <h2 class="text-primary text-left text-lg font-medium capitalize">perusahaan kami</h2>
+                                        <p class="text-gray-500 text-left text-xs">Jl. Kebon Bawang Raya/Fort Barat No.35, Kebon <br>Bawang, Tanjung Priok, Jakarta, Indonesia 14320</p>
+                                    </div>
+                                </div>
+
+                                <a href="https://maps.app.goo.gl/2N8hNcFVcYyme7AQ7" class="w-10 h-10 bg-primary text-white text-lg rounded-full flex justify-center items-center"><i class="fa-solid fa-arrow-up-right text-xl"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-1/2 h-full py-4 px-4 border-2 border-gray-600 rounded-2xl flex flex-col justify-between items-start z-10">
+                        <form action="get" method="get" class="w-full h-full gap-3 flex flex-col justify-start items-center">
+                            <input type="text" name="name" id="name" class="w-full py-4 px-6 border-2 border-gray-600 text-gray-800 text-left text-base font-normal rounded-xl focus:outline-none focus:shadow-primary" placeholder="Nama">
+                            <input type="email" name="email" id="email" class="w-full py-4 px-6 border-2 border-gray-600 text-gray-800 text-left text-base font-normal rounded-xl focus:outline-none focus:shadow-primary" placeholder="Email">
+                            <input type="text" name="message" id="message" class="w-full h-full py-4 px-6 border-2 border-gray-600 text-gray-800 text-left text-base font-normal rounded-xl focus:outline-none focus:shadow-primary" placeholder="Pesan">
+                            <button type="submit" class="w-full py-3 bg-primary border-2 border-transparent rounded-xl text-white text-center text-sm font-normal capitalize tracking-wide hover:border-primary hover:bg-transparent hover:text-primary transition-all duration-500 cursor-pointer">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="w-full h-screen bg-white shadow-top-white relative flex justify-center items-center">
+                <iframe class="w-[90%] h-160 rounded-2xl absolute -top-15" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.138332050243!2d106.88952497498944!3d-6.112071493874493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1f94db871ffd%3A0x5d4cc1704adc4547!2sJl.%20Kb.%20Bawang%20No.35%2C%20RT.8%2FRW.6%2C%20Kb.%20Bawang%2C%20Kec.%20Tj.%20Priok%2C%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2014320!5e0!3m2!1sen!2sid!4v1759893430081!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         </main>
 
         <footer class="w-full px-5 bg-transparent relative">
@@ -67,9 +138,9 @@
                             <span class="text-2xl text-black invisible md:visible">•</span>
                             <a href="about.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">tentang kami</a>
                             <span class="text-2xl text-black invisible md:visible">•</span>
-                            <a href="service.html" class="w-max font-normal text-center text-xl text-primary capitalize invisible md:visible">service</a>
+                            <a href="service.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">service</a>
                             <span class="text-2xl text-black invisible md:visible">•</span>
-                            <a href="contact.html" class="w-max font-light text-center text-xl text-gray-600 capitalize invisible md:visible">contact</a>
+                            <a href="contact.html" class="w-max font-normal text-center text-xl text-primary capitalize invisible md:visible">contact</a>
                         </div>
                     </div>
 
