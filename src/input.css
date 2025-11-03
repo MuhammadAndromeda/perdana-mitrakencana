@@ -33,13 +33,27 @@
     }
 
     to{
-      transform: translateX(-300%);
+      transform: translateX(-280%);
+    }
+  }
+
+  @keyframes ClientScroll {
+     from{
+      transform: translateX(110%);
+    }
+
+    to{
+      transform: translateX(-110%);
     }
   }
 }
 
 @utility scroll-animation{
   animation: scroll 12s linear infinite;
+}
+
+@utility scroll-client{
+  animation: ClientScroll 12s linear infinite;
 }
 
 @utility shadow-bot-white{
